@@ -1,0 +1,14 @@
+# 비밀값과 개인 파일은 Docker 이미지에 넣지 않는다
+.env
+.env.*
+!.env.example
+*.pem
+
+# 개발 환경·캐시
+.venv/
+venv/
+__pycache__/
+*.pyc
+.git/
+.vscode/
+.idea/
